@@ -73,6 +73,8 @@ nav{
 }
 .hero-content{
 max-width: fit-content;
+margin-top: 115.5px;
+margin-bottom: 179.5px;
 
 
 text-align: center;
@@ -147,5 +149,101 @@ border: 1px solid #FFFFFF;
 border-radius: 4px;
 color: #FFFFFF;
 }    
+.notes-section{
+    background-color: #FFFFFF;
+    display: ;
+}
+.section-header{
+   text-align: center;
+   max-width: 1360px;
+   height: 152px;
+   gap: 16;
+  
+   margin-left: 120px;
+   margin-right: 120px;
+}
+.section-header h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    padding-top: 40px;
+}
+.section-header p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    
+}
+.cards-container{
+    max-width: 1360px;
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+    gap: 24px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+.cards-container .feature-card{
+    max-width: 322px;
+    height: 300px;
+    text-align: center;
+    gap: 16px;
+    padding: 24px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #627382;
+}
+.icon-wrapper {
+  width: 60px;           
+  height: 60px;         
+  background-color: #ff5e5e; 
+  border-radius: 50%;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  margin: 0 auto 20px; 
+}
 
+.icon-wrapper .icon img{
+    
+    
+    background-color: #F95555;
+}
+    
+.feature-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    color: #001931;
+   
+
+}
+.feature-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #627382;
+    max-width: 274px;
+    height: 40px;
+}
+.feature-card {
+
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center; 
+
+}
